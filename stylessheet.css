@@ -1,0 +1,214 @@
+.main
+{
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 10, 0.5)
+    ), url("back3.jpg");
+	min-height: 350px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nav, .nav2
+{
+	background-color: white;
+	margin-top: 50px;
+	width: 60%;
+	margin-left: 20%;
+	display:flex;
+}
+.nav .title
+{
+	padding: 8px 8px;
+	margin-left: 5%;
+}
+.nav a, .nav2 a
+{
+	color: #333;
+	padding: 15px 15px;
+	text-decoration: underline;
+}
+.nav a:link , .nav2 a:link {
+  text-decoration: none;
+}
+.nav a:hover ,.nav2 a:hover
+{
+	color: black;
+}
+.nav2 a
+{
+	display: block;
+}
+.hum
+{
+	display: none;
+}
+@media screen and (max-width: 500px) 
+{
+
+	.nav a:not(:first-child)
+	{
+		display: none;		
+	}
+	.hum 
+	{
+		display: block;
+	}
+	.hum2
+	{
+		display: block;
+	}
+	.nav , .nav2
+	{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.nav2 .title
+    {
+	color: black;
+	padding: 10px 10px;
+	margin-left:0%;
+    }
+}
+.socialm
+{
+	width: 200px;
+	height: 50px;
+	margin-left: 49%;
+	margin-top: 10px;
+
+}
+#smi
+{
+	width: 22px;
+	height: 22px;
+	margin-left: 10px;
+}
+.main1
+{
+margin: auto;
+margin-bottom: 10px;
+}
+.text1
+{
+	margin-left: 47%;
+	margin-top: 10px;
+}
+.text1 h3
+{
+	margin-left: 0%;
+}
+.main11
+{
+	display: flex;
+    width: 60%;
+    margin-left: 27%;
+}
+#html 
+{
+	max-width: 200px;
+	min-width: 200px;
+	margin-left: 5%;
+	margin-top: 20px;
+	max-height: 200px;
+	min-height: 200px;
+	border-radius: 100px;
+	flex-shrink: 0;
+}
+.js
+{
+	background-color: #49abf5;
+}
+.css
+{
+    background-color: #d99329;
+}
+.html1
+{
+	background-color: #4aeddd;
+}
+@media screen and (max-width: 870px) 
+{
+	.main11  
+    {
+     margin-left: 35%;
+     flex-direction: column;
+    }
+	#html
+	{
+		min-width: 200px;
+	}
+	.main21
+	{
+		flex-direction: column;
+		flex-wrap: wrap;
+
+	}
+	.main21 #con1
+	{
+		margin-left: 30%;
+	}
+}
+.imgin
+{
+	margin-top: 40%;
+	margin-left: 38%;
+	width: 40px;
+}
+.footer
+{
+	background-color: #333;
+	height: 30px;
+	color: white;
+	width: 100%;
+	margin-top: 42px;
+	bottom: 0;
+	position: sticky;
+	padding: 5px;
+}
+#con1
+{
+	min-width: 250px;
+	margin-top: 10px;
+	max-width: 250px;
+	margin-left: 5%;
+	flex-shrink: 0;
+	overflow: hidden;
+}
+.main21
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 7%;
+}
+.info
+{
+	background-color: pitch;
+	height: 300px;
+	display: none;
+}
+.con11
+{
+	min-width: 200px;
+	margin-top: 10px;
+	max-width: 200px;
+	min-height: 200px;
+	max-height: 200px;
+	margin-left: 5%;
+	flex-shrink: 0;
+	
+}
+.imgin1
+{
+width: 250px;
+height: 180px;
+}
+
+.imgin1:hover 
+{
+opacity: 0.3;
+}
+
+
+
+
